@@ -40,3 +40,9 @@
 -dontwarn anet.**
 -dontwarn org.android.spdy.**
 -dontwarn org.android.agoo.**
+
+-keepclassmembers class com.mxdl.push.MainApplication {
+    public <init>();
+}
+# 如果不使用android.support.annotation.Keep则需加上此行
+# -keep class com.my.pkg.SophixStubApplication$RealApplicationStub

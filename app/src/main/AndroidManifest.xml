@@ -29,6 +29,10 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <!-- 允许task重排序 -->
     <uses-permission android:name="android.permission.REORDER_TASKS" />
+
+    <!-- 外部存储读权限，调试工具加载本地补丁需要 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -37,7 +41,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:allowBackup"
-        android:name=".MainApplication"
+        android:name=".SophixStubApplication"
         >
         <meta-data android:name="com.alibaba.app.appkey" android:value="28257624"/> <!-- 请填写你自己的- appKey -->
         <meta-data android:name="com.alibaba.app.appsecret" android:value="3c9a39d3cf83d5d7932aae36269c2d60"/> <!-- 请填写你自己的appSecret -->

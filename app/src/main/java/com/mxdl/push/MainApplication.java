@@ -7,6 +7,7 @@ import android.util.Log;
 import com.alibaba.sdk.android.push.CloudPushService;
 import com.alibaba.sdk.android.push.CommonCallback;
 import com.alibaba.sdk.android.push.noonesdk.PushServiceFactory;
+import com.taobao.sophix.SophixManager;
 
 /**
  * Description: <MainApplication><br>

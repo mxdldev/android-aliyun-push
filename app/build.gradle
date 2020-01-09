@@ -1,5 +1,8 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.aliyun.ams.emas-services'
+def buildTime() {
+    return new Date().format("yyyyMMdd_HHmm")
+}
 
 android {
     compileSdkVersion 29
@@ -7,14 +10,64 @@ android {
         applicationId "com.mxdl.push"
         minSdkVersion 21
         targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        versionCode 101
+        versionName "1.0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // dex突破65535的限制
+        multiDexEnabled true
     }
-    buildTypes {
+    sourceSets {
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+    signingConfigs {
+        debug {
+            storeFile file("debug.keystore")
+
+        }
+
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            storeFile file("aliyun-push.jks")
+            storePassword "123456"
+            keyAlias "mxdl"
+            keyPassword "123456"
+
+        }
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "boolean", 'IS_DEBUG', 'true'
+            versionNameSuffix "_debug"
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled true
+            zipAlignEnabled true //Zipalign优化
+            shrinkResources true // 是否去除无效的资源文件
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "boolean", 'IS_DEBUG', 'false'
+            versionNameSuffix "_release"
+            signingConfig signingConfigs.release
+        }
+    }
+    flavorDimensions "default"
+    productFlavors {
+        check {
+            applicationId "com.mxdl.push"
+            versionNameSuffix "_check"
+        }
+        publish {
+            applicationId "com.mxdl.push"
+            versionNameSuffix "_public"
+        }
+    }
+
+    applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            outputFileName = "AliPush_v${versionName}_${buildTime()}_${versionCode}.apk"
         }
     }
 }
@@ -28,4 +81,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
     implementation 'com.aliyun.ams:alicloud-android-push:2.3.7'
+    implementation 'com.aliyun.ams:alicloud-android-hotfix:3.2.12'
 }
