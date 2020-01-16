@@ -47,6 +47,8 @@ android {
             zipAlignEnabled true //Zipalign优化
             shrinkResources true // 是否去除无效的资源文件
 
+            debuggable true  //true代表开启  false 关闭
+
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
             buildConfigField "boolean", 'IS_DEBUG', 'false'
             versionNameSuffix "_release"
