@@ -1,4 +1,4 @@
-<mxfile modified="2021-06-30T06:26:47.631Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="F8jG7Bl2Cn-3nxP5QJRu" version="14.8.2" type="github">
+<mxfile modified="2021-06-30T06:28:30.568Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="RB5xsk9NRqHCbtkSLIwS" version="14.8.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1372" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -168,6 +168,18 @@
         </mxCell>
         <mxCell id="s-kTB0kEWbQ2VdYI4u_3-62" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;获取&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="620" y="540" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-63" value="获取购买教辅" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="419" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-64" value="获取日阅通数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="460" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-65" value="获取做题详情" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="504" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-66" value="其他接口.." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="545" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
