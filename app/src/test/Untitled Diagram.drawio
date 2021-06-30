@@ -1,4 +1,4 @@
-<mxfile modified="2021-06-30T06:37:01.705Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="tjQMwT8UFVl5KyIWjHFs" version="14.8.2" type="github">
+<mxfile modified="2021-06-30T06:37:10.938Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="Pa6IwZbxGfBv40HOn0Ri" version="14.8.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1372" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -198,9 +198,6 @@
         </mxCell>
         <mxCell id="s-kTB0kEWbQ2VdYI4u_3-75" value="其他接口.." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="790" y="555" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-79" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="680" y="270" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="s-kTB0kEWbQ2VdYI4u_3-82" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 28px;&quot;&gt;人教点读APP网络通讯组件lib_pep_api架构设计图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontColor=#FFFFFF;fontSize=28;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="325" y="30" width="650" height="40" as="geometry" />
