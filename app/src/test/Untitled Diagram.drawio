@@ -1,17 +1,17 @@
-<mxfile modified="2021-06-30T06:07:47.087Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="yJLYqutmfYoga6_MsPPV" version="14.8.2" type="github">
+<mxfile modified="2021-06-30T06:15:28.308Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="S0Ib5e6vIHQ-IhyJMQ4D" version="14.8.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="s-kTB0kEWbQ2VdYI4u_3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" width="760" height="90" as="geometry" />
+          <mxGeometry x="240" width="840" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s-kTB0kEWbQ2VdYI4u_3-2" value="&lt;font style=&quot;font-size: 36px&quot;&gt;RetrofitManager&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="590" y="30" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s-kTB0kEWbQ2VdYI4u_3-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="240" y="160" width="760" height="90" as="geometry" />
+          <mxGeometry x="240" y="160" width="840" height="90" as="geometry" />
         </mxCell>
         <mxCell id="s-kTB0kEWbQ2VdYI4u_3-4" value="UserService" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="280" y="187.5" width="120" height="35" as="geometry" />
@@ -25,11 +25,8 @@
         <mxCell id="s-kTB0kEWbQ2VdYI4u_3-7" value="OrderService" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="440" y="187.5" width="120" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="320" width="120" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-9" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;用户登录接口&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;获取用户安全码&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;获取验证码&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;检查验证码&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;检查手机号&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;绑定手机号&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;修改密码&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="280" y="320" width="120" height="200" as="geometry" />
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-9" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="320" width="120" height="260" as="geometry" />
         </mxCell>
         <mxCell id="s-kTB0kEWbQ2VdYI4u_3-10" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,8 +46,65 @@
             <mxPoint x="339.5" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-17" value="其他..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="910" y="190" width="80" height="35" as="geometry" />
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-17" value="其他服务..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="940" y="190" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-18" value="用户登录" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-19" value="用户" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-20" value="获取安全码" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="370" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-21" value="获取验证码" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="414" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-22" value="检查验证码" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-23" value="检查手机号" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="500" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-24" value="其他接口.." style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#d80073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="540" width="80" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-26" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-27" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-28" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="320" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-29" value="&lt;div style=&quot;font-size: 16px&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#e1d5e7;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="920" y="320" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-30" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="499.5" y="260" as="sourcePoint" />
+            <mxPoint x="499.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-31" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.5" y="260" as="sourcePoint" />
+            <mxPoint x="659.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-32" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="819.5" y="260" as="sourcePoint" />
+            <mxPoint x="819.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-kTB0kEWbQ2VdYI4u_3-33" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="979.5" y="260" as="sourcePoint" />
+            <mxPoint x="979.5" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
